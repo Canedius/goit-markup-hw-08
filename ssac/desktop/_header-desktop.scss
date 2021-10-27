@@ -1,0 +1,39 @@
+@media screen and(min-width:$desktop) {
+  .section-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .list--center {
+    margin-left: auto;
+  }
+
+  .logo {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .section-header__nav > .logo {
+    margin-right: 93px;
+  }
+
+  .list .list__itemaddress {
+    margin-right: 30px;
+    margin-bottom: 0px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  .list__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .list__icon {
+    margin-right: 10px;
+    height: 16px;
+  }
+  .list__email {
+    margin-right: 10px;
+    height: 12px;
+  }
+}

@@ -1,0 +1,28 @@
+@media screen and (min-width: $tablet) {
+  .section-footer__address {
+    margin-bottom: 0px;
+    margin-right: 165px;
+  }
+  .footer-form__input {
+    width: 450px;
+  }
+  .footer-form__container {
+    text-align: center;
+  }
+  .container-social {
+    margin-bottom: 0px;
+  }
+  .logo--footer {
+    margin-bottom: 0px;
+  }
+  .logo-wrap {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1199px) {
+    .wrapper-tablet {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+  }
+}

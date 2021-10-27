@@ -1,0 +1,41 @@
+@media screen and(min-width:$desktop) {
+  .container--flex {
+    display: flex;
+  }
+
+  .logo-wrap {
+    justify-content: start;
+  }
+
+  .section-footer__address {
+    margin-right: 70px;
+    width: 231px;
+  }
+  .wrapper-tablet {
+    display: flex;
+  }
+
+  .container-social {
+    text-align: start;
+    margin-right: 93px;
+  }
+
+  .footer-form__action,
+  .contact__address,
+  .contact__text {
+    text-align: start;
+  }
+  .footer-form__container {
+    display: flex;
+  }
+  .footer-form {
+    width: 570px;
+    height: 86px;
+  }
+  .footer-form__input {
+    margin-bottom: 0;
+  }
+  .footer-form__input {
+    margin-right: 12px;
+  }
+}

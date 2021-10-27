@@ -1,0 +1,112 @@
+@media screen and (min-width: $tablet) {
+  .section-header {
+    border-bottom: 1px solid #ececec;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .container--center {
+    display: flex;
+    align-items: center;
+  }
+  .list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header__nav {
+    display: flex;
+    align-items: center;
+    & .list {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+  .section-header__nav > .logo {
+    margin-right: 88px;
+  }
+
+  .list .list__item {
+    display: block;
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+  }
+
+  .link {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  .list__item {
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+  }
+
+  .list .list__itemaddress {
+    display: block;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.list__link {
+  display: flex;
+  align-items: center;
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.list__icon {
+  fill: $title-text-color;
+  margin-right: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 14px;
+  .list__link:hover &,
+  .list__link:focus & {
+    fill: $accent-color;
+  }
+}
+.list__email {
+  fill: $title-text-color;
+  margin-right: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 10px;
+  .list__link:hover &,
+  .list__link:focus & {
+    fill: $accent-color;
+  }
+}
+.link--position {
+  position: relative;
+}
+
+.link--position::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: $accent-color;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+}

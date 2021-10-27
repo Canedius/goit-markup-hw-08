@@ -1,0 +1,28 @@
+@media screen and(min-width:$desktop) {
+  .backdrop {
+    padding-top: 221px;
+  }
+  .backdrop__modal {
+    position: relative;
+    width: 528px;
+    // height: 581px;
+  }
+
+  .modal-wrap__action {
+    line-height: 1.15;
+    margin-bottom: 11px;
+  }
+
+  .modal-wrap__textarea {
+    padding: 18px 16px 0 16px;
+  }
+
+  .modal-wrap__text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  .modal-wrap__castom {
+    margin-right: 8px;
+  }
+}
